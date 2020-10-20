@@ -23,3 +23,23 @@ for (let index = 0; index < tabs.length; index++) {
    }
 }
 //=================
+
+// Клики в форме
+
+let changePass = document.querySelector('.general._change');
+let newPassSection = document.querySelector('.new-password');
+let changeForgot = document.querySelector('.forgot._change');
+let forgotPassSection = document.querySelector('.forgot-pass');
+
+if (changePass) {
+   changePass.addEventListener('click', function () {
+      newPassSection.classList.add('_active');
+   })
+}
+if (changeForgot) {
+   changeForgot.addEventListener('click', function () {
+      forgotPassSection.classList.add('_active');
+   })
+}
+
+//=================

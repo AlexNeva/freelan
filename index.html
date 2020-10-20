@@ -136,15 +136,51 @@
 								<span class="verified">Verified</span>
 								<span class="unverified">Unverified</span>
 							</div>
-							<div class="form__row _change">
+							<div class="form__row">
 								<label for="password" class="form__title">Password</label>
 								<input id="password" type="password" class="form__input">
+								<span class="general _change">Change</span>
 							</div>
-							<div class="form__row">
+							<div class="form__row repeat-pass">
 								<label for="repeatpass" class="form__title">Repeat new password</label>
 								<input id="repeatpass" type="password" class="form__input">
 							</div>
 							<button type="submit" class="form__btn">Save</button>
+						</form>
+					</section>
+					<section class="new-password">
+						<h2 class="new-password__title">New password</h2>
+						<form action="#" class="new-password__form form">
+							<div class="form__row">
+								<label for="oldpassword" class="form__title">Old password</label>
+								<input id="oldpassword" type="password" class="form__input">
+								<span class="wrong">Wrong password</span>
+								<span class="forgot _change">Forgot password</span>
+							</div>
+							<div class="form__row">
+								<label for="newpassword" class="form__title">New password</label>
+								<input id="newpassword" type="password" class="form__input">
+							</div>
+							<div class="form__row">
+								<label for="newrepeatpass" class="form__title">Repeat new password</label>
+								<input id="newrepeatpass" type="password" class="form__input">
+								<span class="wrong">Password doesn’t match</span>
+							</div>
+							<button type="submit" class="form__btn new-pass__btn">Save</button>
+						</form>
+					</section>
+					<section class="forgot-pass">
+						<h2 class="forgot-pass__title">Forgot password?</h2>
+						<h3 class="forgot-pass__subtitle">
+							Please enter your email<br>
+							We will send you a link to restore your password
+						</h3>
+						<form action="#" class="forgot-pass__form form">
+							<div class="form__row">
+								<label for="forg-email" class="form__title">Email</label>
+								<input id="forg-email" type="email" class="form__input">
+							</div>
+							<button type="submit" class="form__btn forgot__btn">Send link</button>
 						</form>
 					</section>
 					<section class="content-profile__settings settings-profile _tabs-block">
