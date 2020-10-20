@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Profile</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__left">
+					<a href="#" class="header__logo">
+						<img src="img/header/Logo_carbee_new.png" alt="carbee">
+					</a>
+					<menu class="header__menu menu-header">
+						<nav class="menu-header__nav">
+							<ul class="menu-header__list">
+								<li class="menu-header__item">
+									<a href="#" class="menu-header__link">
+										New quote
+									</a>
+								</li>
+								<li class="menu-header__item">
+									<a href="#" class="menu-header__link">
+										Towing
+									</a>
+								</li>
+								<li class="menu-header__item _condition">
+									<a href="#" class="menu-header__link">
+										MY CARS
+									</a>
+								</li>
+								<li class="menu-header__item _condition">
+									<a href="#" class="menu-header__link">
+										MESSAGES
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</menu>
+				</div>
+
+				<div class="header__user user-header">
+					<div class="user-header__text">
+						<div class="user-header__name">Mike Johns</div>
+						<div class="user-header__status">User</div>
+					</div>
+					<div class="user-header__photo">
+						<img src="img/header/header-user.jpg" alt="photo">
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__container container">
+				<h1 class="main__title">profile</h1>
+				<div class="main__content content-profile _tabs">
+					<section class="content-profile__welcome welcome-profile">
+						<div class="welcome-profile__column">
+							<div class="welcome-profile__title">
+								Hi, Michelanjelo
+								Shwarcenegger
+							</div>
+							<a href="#" class="welcome-profile__logout">Log out</a>
+							<a href="" class="welcome-profile__switchto">Switch to mechanic</a>
+						</div>
+						<div class="welcome-profile__column">
+							<img src="img/form/form-user.jpg" alt="userphoto" class="welcome-profile__image">
+							<div class="welcome-profile__editph">
+								<input type="file" class="welcome-profile__file">
+								<span class="welcome-profile__btn">Edit photo</span>
+							</div>
+
+						</div>
+					</section>
+					<aside class="content-profile__aside aside-profile">
+						<ul class="aside-profile__list">
+							<li class="aside-profile__item aside-profile__item_genetal">
+								<a href="#" class="aside-profile__link aside-profile__link_general _tabs-item">
+									General
+								</a>
+							</li>
+							<li class="aside-profile__item aside-profile__item_mycars">
+								<a href="#" class="aside-profile__link aside-profile__link_mycars">
+									My cars
+								</a>
+							</li>
+							<li class="aside-profile__item aside-profile__item_settings">
+								<a href="#" class="aside-profile__link aside-profile__link_settings _tabs-item">
+									Settings
+								</a>
+							</li>
+							<li class="aside-profile__item aside-profile__item_pay">
+								<a href="#" class="aside-profile__link aside-profile__link_pay">
+									Payments
+								</a>
+							</li>
+							<li class="aside-profile__item aside-profile__item_reviews">
+								<a href="#" class="aside-profile__link aside-profile__link_reviews _tabs-item">
+									My Reviews
+								</a>
+							</li>
+						</ul>
+					</aside>
+					<section class="content-profile__general _tabs-block">
+						<h2 class="section__title">General</h2>
+						<form action="#" class="content-profile__form form">
+							<div class="content-profile__user user-info">
+								<div class="user-info__imageBx">
+									<img src="img/form/form-user.jpg" alt="photo" class="user-info__image">
+									<input type="file" class="user-info__input"></input>
+									<div class="user-info__addfile"></div>
+								</div>
+								<span class="user-info__name">Mike Johns</span>
+							</div>
+							<div class="form__row">
+								<label for="name" class="form__title">Name</label>
+								<input id="name" type="text" class="form__input">
+							</div>
+							<div class="form__row _verified">
+								<label for="phone" class="form__title">Phone number</label>
+								<input id="phone" type="text" class="form__input">
+								<a href="#" class="verify">Verify</a>
+								<span class="verified">Verified</span>
+								<span class="unverified">Unverified</span>
+							</div>
+							<div class="form__row  _unverified _verified">
+								<label for="email" class="form__title">Email</label>
+								<input id="email" type="email" class="form__input">
+								<a href="#" class="verify">Verify</a>
+								<span class="verified">Verified</span>
+								<span class="unverified">Unverified</span>
+							</div>
+							<div class="form__row _change">
+								<label for="password" class="form__title">Password</label>
+								<input id="password" type="password" class="form__input">
+							</div>
+							<div class="form__row">
+								<label for="repeatpass" class="form__title">Repeat new password</label>
+								<input id="repeatpass" type="password" class="form__input">
+							</div>
+							<button type="submit" class="form__btn">Save</button>
+						</form>
+					</section>
+					<section class="content-profile__settings settings-profile _tabs-block">
+						<h2 class="section__title">Settings</h2>
+
+						<div class="settings-profile__actions actions-settings">
+							<h3 class="settings-profile__title">Send notifications to</h3>
+							<div class="actions-settings__block">
+								<div class="actions-settings__row">
+									<span class="actions-settings__lable">(414) 249 1215</span>
+									<span class="actions-settings__checkbox"></span>
+								</div>
+								<div class="actions-settings__row">
+									<span class="actions-settings__lable">Mikejohns@gmail</span>
+									<span class="actions-settings__checkbox _checked"></span>
+								</div>
+							</div>
+
+						</div>
+						<button class="settings-profile__delete">Delete profile</button>
+					</section>
+					<section class="content-profile__reviews reviews-profile _tabs-block">
+						<h2 class="section__title">My reviews</h2>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active _active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active _active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active _active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="reviews-profile__row">
+							<div class="reviews-profile__column  flex-start">
+								<div class="reviews-profile__imageBx">
+									<img src="img/reviews/car.jpg" alt="photo" class="reviews-profile__image">
+									<div class="reviews-profile__options options-reviews">
+										<span class="options-reviews__count">1 145</span>
+										<span class="options-reviews__percent">95%</span>
+									</div>
+								</div>
+								<div class="reviews-profile__text text-reviews">
+									<h2 class="text-reviews__title">Chicago Auto</h2>
+									<address class="text-reviews__address">
+										600 South State St Unit 100
+										Chicago, IL 60001
+									</address>
+								</div>
+							</div>
+							<div class="reviews-profile__column flex-start">
+								<div class="reviews-profile__comment">
+									<div class="reviews-profile__score reviews-profile__score_nice">
+
+									</div>
+									<p>
+										Im very thankful to these wonderful guys from Chicago Auto as they fixed my car really
+										fast
+										and on timely manner. Defentely recommended!!!!!!
+
+									</p>
+								</div>
+							</div>
+							<div class="reviews-profile__column reviews-profile__column_date">
+								<span class="reviews-profile__date">Dec. 13th <span
+										class="reviews-profile__year">2008</span></span>
+							</div>
+							<a href="#" class="reviews-profile__menu">
+								<svg class="reviews-profile__dottes" width="24" height="24" viewBox="0 0 24 24" fill="black"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.3457 9 9 10.3457 9 12C9 13.6543 10.3457 15 12 15C13.6543 15 15 13.6543 15 12C15 10.3457 13.6543 9 12 9ZM12 14C10.8975 14 9.99998 13.1031 9.99998 12C9.99998 10.8969 10.8975 9.99998 12 9.99998C13.1025 9.99998 14 10.8969 14 12C14 13.1031 13.1025 14 12 14Z" />
+									<path
+										d="M12 18C10.3457 18 9 19.3457 9 21C9 22.6543 10.3457 24 12 24C13.6543 24 15 22.6543 15 21C15 19.3457 13.6543 18 12 18ZM12 23C10.8975 23 9.99998 22.1031 9.99998 21C9.99998 19.8969 10.8975 19 12 19C13.1025 19 14 19.8969 14 21C14 22.1031 13.1025 23 12 23Z" />
+									<path
+										d="M12 6C13.6543 6 15 4.65431 15 3C15 1.34569 13.6543 0 12 0C10.3457 0 9 1.34569 9 3C9 4.65431 10.3457 6 12 6ZM12 0.999984C13.1025 0.999984 14 1.89694 14 3C14 4.10306 13.1025 5.00002 12 5.00002C10.8975 5.00002 9.99998 4.10302 9.99998 3C9.99998 1.89698 10.8975 0.999984 12 0.999984Z" />
+								</svg>
+								<svg class="reviews-profile__dottes reviews-profile__dottes_768" width="10" height="22"
+									viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_d)">
+										<path
+											d="M6.99986 10.9999C6.99986 12.1045 6.10451 12.9999 4.99993 12.9999C3.89536 12.9999 3 12.1045 3 10.9999C3 9.89536 3.89536 9 4.99993 9C6.10451 9 6.99986 9.89536 6.99986 10.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 13.0499C6.13212 13.0499 7.04986 12.1321 7.04986 10.9999C7.04986 9.86774 6.13212 8.95 4.99993 8.95C3.86774 8.95 2.95 9.86774 2.95 10.9999C2.95 12.1321 3.86774 13.0499 4.99993 13.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter1_d)">
+										<path
+											d="M6.99986 4.99993C6.99986 6.10451 6.10451 6.99986 4.99993 6.99986C3.89536 6.99986 3 6.10451 3 4.99993C3 3.89536 3.89536 3 4.99993 3C6.10451 3 6.99986 3.89536 6.99986 4.99993Z"
+											fill="white" />
+										<path
+											d="M4.99993 7.04986C6.13212 7.04986 7.04986 6.13212 7.04986 4.99993C7.04986 3.86774 6.13212 2.95 4.99993 2.95C3.86774 2.95 2.95 3.86774 2.95 4.99993C2.95 6.13212 3.86774 7.04986 4.99993 7.04986Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<g filter="url(#filter2_d)">
+										<path
+											d="M6.99986 16.9999C6.99986 18.1045 6.10451 18.9999 4.99993 18.9999C3.89536 18.9999 3 18.1045 3 16.9999C3 15.8954 3.89536 15 4.99993 15C6.10451 15 6.99986 15.8954 6.99986 16.9999Z"
+											fill="white" />
+										<path
+											d="M4.99993 19.0499C6.13212 19.0499 7.04986 18.1321 7.04986 16.9999C7.04986 15.8677 6.13212 14.95 4.99993 14.95C3.86774 14.95 2.95 15.8677 2.95 16.9999C2.95 18.1321 3.86774 19.0499 4.99993 19.0499Z"
+											stroke="#585858" stroke-width="0.1" />
+									</g>
+									<defs>
+										<filter id="filter0_d" x="0.900024" y="6.90039" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter1_d" x="0.900024" y="0.900391" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+										<filter id="filter2_d" x="0.900024" y="12.9004" width="8.19986" height="8.19986"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+											<feOffset />
+											<feGaussianBlur stdDeviation="1" />
+											<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</a>
+							<div class="menu-active _active">
+								<a href="" class="menu-active__edit">Edit</a>
+								<a href="" class="menu-active__profile">Profile</a>
+								<a href="" class="menu-active__deletetx">Delete</a>
+								<a href="" class="menu-active__delete">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.75153 1.26764H12.2612V1.8582H13.5287V1.18497C13.5289 0.531601 12.9976 0 12.3446 0H8.66821C8.01517 0 7.48389 0.531601 7.48389 1.18497V1.8582H8.75153V1.26764Z"
+											fill="#F95555" />
+										<path
+											d="M16.4558 6.88086H4.55682C4.23078 6.88086 3.97411 7.159 4.00039 7.48408L4.99518 19.7849C5.05061 20.4716 5.62339 21.0005 6.31152 21.0005H14.701C15.3891 21.0005 15.9619 20.4716 16.0173 19.7848L17.0121 7.48408C17.0385 7.159 16.7819 6.88086 16.4558 6.88086ZM7.43801 19.6885C7.42471 19.6893 7.41141 19.6898 7.39828 19.6898C7.06598 19.6898 6.78705 19.431 6.76638 19.0949L6.14297 8.99653C6.1215 8.64709 6.3873 8.34637 6.73658 8.3249C7.08473 8.30375 7.38674 8.56891 7.40821 8.9185L8.03145 19.0168C8.05308 19.3663 7.78728 19.6668 7.43801 19.6885ZM11.1472 19.0559C11.1472 19.4058 10.8635 19.6896 10.5134 19.6896C10.1633 19.6896 9.87956 19.4058 9.87956 19.0559V8.95744C9.87956 8.60736 10.1633 8.32362 10.5134 8.32362C10.8633 8.32362 11.1472 8.60736 11.1472 8.95744V19.0559ZM14.8697 8.99477L14.2745 19.0931C14.2548 19.4299 13.9754 19.6896 13.6424 19.6896C13.6299 19.6896 13.6173 19.6893 13.6046 19.6886C13.2552 19.668 12.9886 19.368 13.0092 19.0186L13.6043 8.9201C13.6248 8.57067 13.9238 8.30407 14.2742 8.32474C14.6236 8.34525 14.8902 8.64533 14.8697 8.99477Z"
+											fill="#F95555" />
+										<path
+											d="M18.6477 4.9236L18.2314 3.67583C18.1217 3.3469 17.8137 3.125 17.4669 3.125H3.54575C3.19904 3.125 2.89094 3.3469 2.78135 3.67583L2.36511 4.9236C2.28484 5.16425 2.3893 5.4097 2.58428 5.5321C2.66375 5.58193 2.7578 5.61189 2.86114 5.61189H18.1516C18.255 5.61189 18.3492 5.58193 18.4285 5.53194C18.6235 5.40954 18.7279 5.16409 18.6477 4.9236Z"
+											fill="#F95555" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<smal class="footer__copyright">
+					<span class="footer__company">Carbee</span>
+					<span>© 2014 - 2018<br> All rights reserved</span>
+				</smal>
+				<menu class="footer__menu">
+					<nav class="footer__nav">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a class="footer__link" href="#">
+									For investors
+								</a>
+							</li>
+							<li class="footer__item">
+								<a class="footer__link" href="#">
+									How it works
+								</a>
+							</li>
+							<li class="footer__item">
+								<a class="footer__link" href="#">
+									Contact us
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</menu>
+				<div class="footer__contact contacts-footer">
+					<div class="contacts-footer__title">Find us</div>
+					<ul class="contacts-footer__list">
+						<li class="contacts-footer__item">
+							<a href="#">
+								<svg class="contacts-footer__link contacts-footer__link_fb" width="20" height="20"
+									viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M17.2958 0H2.69364C1.20601 0 0 1.20597 0 2.69364V17.2959C0 18.7836 1.20597 19.9895 2.69364 19.9895H9.89535L9.90763 12.8464H8.05183C7.81066 12.8464 7.61491 12.6513 7.61399 12.4102L7.60509 10.1076C7.60416 9.86514 7.80049 9.66807 8.04298 9.66807H9.8954V7.44323C9.8954 4.86132 11.4723 3.45545 13.7755 3.45545H15.6655C15.9073 3.45545 16.1034 3.65149 16.1034 3.89335V5.83487C16.1034 6.07663 15.9074 6.27262 15.6657 6.27276L14.5059 6.2733C13.2533 6.2733 13.0108 6.86851 13.0108 7.742V9.66812H15.7631C16.0253 9.66812 16.2288 9.89711 16.1979 10.1576L15.925 12.4601C15.8989 12.6804 15.712 12.8465 15.4902 12.8465H13.023L13.0108 19.9896H17.2959C18.7835 19.9896 19.9895 18.7837 19.9895 17.296V2.69364C19.9894 1.20597 18.7835 0 17.2958 0Z" />
+								</svg>
+							</a>
+						</li>
+						<li class="contacts-footer__item">
+							<a href="#">
+								<svg class="contacts-footer__link contacts-footer__link_tw" width="25" height="20"
+									viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M24.263 2.35029C23.7152 2.58661 23.1465 2.77304 22.563 2.90801C23.206 2.31362 23.6894 1.57017 23.9621 0.74035C24.0399 0.503449 23.7755 0.298595 23.5556 0.425437C22.7438 0.893858 21.8694 1.24526 20.9566 1.47C20.9037 1.48304 20.849 1.48965 20.7942 1.48965C20.6279 1.48965 20.4663 1.42959 20.3392 1.32058C19.368 0.487893 18.1189 0.0292969 16.8222 0.0292969C16.261 0.0292969 15.6945 0.114385 15.1382 0.282221C13.4147 0.802279 12.0848 2.18538 11.6676 3.89181C11.5111 4.53187 11.4687 5.17251 11.5415 5.79591C11.5499 5.86754 11.5151 5.91754 11.4936 5.94099C11.4559 5.9821 11.4025 6.00567 11.347 6.00567C11.3408 6.00567 11.3344 6.00538 11.3281 6.00479C7.55541 5.6638 4.15333 3.89555 1.74857 1.02585C1.62594 0.879472 1.39078 0.897426 1.29304 1.06052C0.822126 1.84649 0.573264 2.74544 0.573264 3.66017C0.573264 5.06205 1.1522 6.38316 2.15781 7.34626C1.73492 7.24871 1.32562 7.09509 0.945415 6.88965C0.761473 6.79023 0.535153 6.91801 0.532568 7.12269C0.506239 9.20526 1.75957 11.0584 3.63709 11.8928C3.59928 11.8937 3.56147 11.8941 3.5236 11.8941C3.22599 11.8941 2.92465 11.8661 2.62806 11.811C2.42091 11.7725 2.24689 11.9637 2.31121 12.1591C2.92062 14.01 4.55879 15.3743 6.51915 15.6841C4.89216 16.7466 2.99751 17.3071 1.02554 17.3071L0.410782 17.3067C0.22137 17.3067 0.0611726 17.4268 0.012903 17.6053C-0.0346453 17.7811 0.0529373 17.9665 0.214457 18.058C2.43654 19.316 4.97115 19.9809 7.54537 19.9809C9.79866 19.9809 11.9064 19.5459 13.8101 18.688C15.5554 17.9015 17.0976 16.7773 18.394 15.3464C19.6016 14.0136 20.546 12.4749 21.2007 10.7733C21.8248 9.15123 22.1547 7.42047 22.1547 5.76807V5.68936C22.1547 5.42403 22.278 5.17438 22.4932 5.00444C23.3098 4.35941 24.0209 3.60012 24.6067 2.74766C24.7614 2.52257 24.5175 2.24047 24.263 2.35029Z" />
+								</svg>
+							</a>
+						</li>
+						<li class="contacts-footer__item">
+							<a href="#">
+								<svg class="contacts-footer__link contacts-footer__link_inst" width="20" height="20"
+									viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M6.25 0H13.75C17.2013 0 20 2.79875 20 6.25V13.75C20 17.2013 17.2013 20 13.75 20H6.25C2.79875 20 0 17.2013 0 13.75V6.25C0 2.79875 2.79875 0 6.25 0ZM13.75 18.125C16.1625 18.125 18.125 16.1625 18.125 13.75V6.25C18.125 3.8375 16.1625 1.875 13.75 1.875H6.25C3.8375 1.875 1.875 3.8375 1.875 6.25V13.75C1.875 16.1625 3.8375 18.125 6.25 18.125H13.75Z" />
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M5 10C5 7.23875 7.23875 5 10 5C12.7613 5 15 7.23875 15 10C15 12.7613 12.7613 15 10 15C7.23875 15 5 12.7613 5 10ZM6.875 10C6.875 11.7225 8.2775 13.125 10 13.125C11.7225 13.125 13.125 11.7225 13.125 10C13.125 8.27625 11.7225 6.875 10 6.875C8.2775 6.875 6.875 8.27625 6.875 10Z" />
+									<path
+										d="M15.375 5.29148C15.7429 5.29148 16.0412 4.99319 16.0412 4.62523C16.0412 4.25727 15.7429 3.95898 15.375 3.95898C15.007 3.95898 14.7087 4.25727 14.7087 4.62523C14.7087 4.99319 15.007 5.29148 15.375 5.29148Z" />
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="footer__actions actions-footer">
+					<li class="actions-footer__item">
+						<a href="#" class="actions-footer__link">
+							<svg class="actions-footer__icon" width="24" height="23" viewBox="0 0 24 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd"
+									d="M13.827 18.4676C11.6072 18.4676 9.56092 17.7632 7.92314 16.5772L1.91393 21.732C1.44475 22.1344 0.720369 22.1 0.295982 21.655C-0.128406 21.2101 -0.0920951 20.5231 0.377083 20.1207L6.27434 15.0619C4.90893 13.4725 4.09027 11.4438 4.09027 9.23382C4.09027 4.13412 8.44954 0 13.827 0C19.2044 0 23.5637 4.13412 23.5637 9.23382C23.5637 14.3335 19.2044 18.4676 13.827 18.4676ZM21.2726 9.23273C21.2726 13.1325 17.939 16.2939 13.8268 16.2939C9.71469 16.2939 6.38112 13.1325 6.38112 9.23273C6.38112 5.33296 9.71469 2.17157 13.8268 2.17157C17.939 2.17157 21.2726 5.33296 21.2726 9.23273Z"
+									fill="#99A3B4" />
+							</svg>
+							<span class="actions-footer__descr">Search</span>
+						</a>
+					</li>
+					<li class="actions-footer__item">
+						<a href="#" class="actions-footer__link">
+							<svg class="actions-footer__icon" width="40" height="18" viewBox="0 0 40 18" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M23.3335 6.73438H20.6669V8.23114H23.3335V6.73438Z" fill="#99A3B4" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M0.572102 4.49701L5.10064 3.77116C5.92638 3.2018 6.78331 2.69212 7.66683 2.24486C10.5846 0.761489 13.7514 -0.00394287 16.9548 1.52729e-05H17.7414C21.5218 0.00305991 25.2417 1.06778 28.562 3.09706L30.8474 4.4964C33.5227 4.53019 36.1464 5.32881 38.4706 6.81583C39.4151 7.42386 39.9984 8.55191 40 9.77374V14.2168C40 14.6303 39.7016 14.9652 39.3332 14.9652H37.0947C36.3666 17.2965 34.0926 18.5241 32.0155 17.707C30.8721 17.2573 29.9734 16.2483 29.5728 14.9652H11.7613C11.0333 17.2965 8.75922 18.5241 6.68213 17.707C5.53901 17.2573 4.64003 16.2483 4.23936 14.9652H4.00011C3.9152 14.9652 3.83111 14.9473 3.75217 14.9119L1.59288 13.9395C0.628254 13.5108 -0.00352478 12.4628 0 11.2988V5.23778C0 4.86572 0.24387 4.54998 0.572102 4.49701ZM30.7205 14.0676C31.0154 15.687 32.4241 16.7317 33.867 16.4007C35.3101 16.0697 36.2408 14.4886 35.946 12.8689C35.6508 11.2494 34.2421 10.2048 32.7993 10.5357C31.5577 10.8204 30.6663 12.0465 30.6666 13.469C30.6666 13.6699 30.6847 13.8706 30.7205 14.0676ZM29.3333 13.4685H18.6665V5.98592H30.6666C33.1714 5.98683 35.6329 6.7206 37.8085 8.11476C38.3385 8.45516 38.6657 9.08814 38.6665 9.7735V13.4685H37.3332C37.3332 10.9889 35.5423 8.97884 33.3331 8.97884C31.1239 8.97884 29.3333 10.9889 29.3333 13.4685ZM18.6669 4.48952H28.0522L27.9237 4.41066C25.0735 2.67215 21.9075 1.68658 18.6669 1.52917V4.48952ZM16.9562 1.49622H17.3335V4.48944H10.2759L9.11193 3.18297C11.6073 2.06527 14.2695 1.49287 16.9562 1.49622ZM5.38754 14.0676C5.68241 15.687 7.09109 16.7317 8.53424 16.4007C9.97711 16.0697 10.9078 14.4886 10.613 12.8689C10.3181 11.2494 8.90913 10.2048 7.46626 10.5357C6.22467 10.8204 5.33329 12.0465 5.33356 13.469C5.33356 13.6699 5.35173 13.8706 5.38754 14.0676ZM3.33317 6.73448H1.33311V5.88654L5.4279 5.23041C5.51986 5.21549 5.60775 5.17926 5.68642 5.12415C6.36865 4.64735 7.07422 4.21409 7.79986 3.82651L9.52865 5.76688C9.65343 5.90724 9.82297 5.9861 9.99984 5.9861H17.333V13.4681H11.9977C11.9956 10.9894 10.206 8.98084 7.99761 8.97841C7.85764 8.97841 7.72445 8.98663 7.59098 9.00155C7.56216 9.00457 7.53408 9.00998 7.50587 9.01541C7.48576 9.01928 7.46559 9.02317 7.44504 9.02621C7.42159 9.03007 7.39806 9.03366 7.37454 9.03726C7.31456 9.04642 7.25459 9.05558 7.19575 9.06914C7.16655 9.0759 7.13824 9.08464 7.1099 9.09338C7.08847 9.09999 7.06704 9.10661 7.04519 9.11237C7.02467 9.11809 7.00412 9.12362 6.9836 9.12914C6.92655 9.14449 6.86966 9.15979 6.8138 9.17905C6.77812 9.1917 6.74771 9.20471 6.71343 9.21936C6.69324 9.228 6.67171 9.23721 6.64697 9.24725C6.6287 9.25462 6.60966 9.2621 6.59046 9.26964C6.53983 9.28952 6.48816 9.30981 6.44705 9.32946C6.40965 9.34713 6.37603 9.36587 6.33987 9.38601C6.32122 9.39641 6.3019 9.40717 6.28103 9.41836C6.2633 9.42788 6.24506 9.43747 6.2268 9.44707C6.18192 9.47067 6.13683 9.49438 6.09847 9.51732C6.04449 9.54928 5.99783 9.58217 5.94032 9.62418C5.9118 9.64512 5.88261 9.66432 5.85389 9.6832C5.82496 9.70223 5.79651 9.72094 5.7697 9.7408C5.73135 9.76956 5.69427 9.80134 5.65755 9.83281C5.64335 9.84497 5.62921 9.85709 5.61507 9.86898C5.598 9.8834 5.58081 9.89723 5.56357 9.91109C5.52987 9.9382 5.49601 9.96543 5.46262 9.99746C5.43243 10.0264 5.40273 10.0576 5.37391 10.0878C5.35429 10.1084 5.33508 10.1285 5.31641 10.1473C5.30269 10.1611 5.28902 10.1745 5.27537 10.1879C5.24338 10.2193 5.21146 10.2506 5.17915 10.2873C5.15585 10.3139 5.13249 10.3434 5.10973 10.3722C5.0877 10.4 5.06623 10.4271 5.04595 10.4502L5.04236 10.4543C5.00214 10.5 4.96334 10.5441 4.92198 10.6C4.88785 10.6461 4.85442 10.6971 4.82363 10.7441C4.81601 10.7557 4.80854 10.7671 4.80127 10.7781C4.7879 10.7983 4.77471 10.8176 4.76149 10.837C4.7385 10.8706 4.71542 10.9044 4.69114 10.9434C4.65316 11.0046 4.61654 11.0728 4.5867 11.1328C4.57273 11.1605 4.55764 11.1872 4.54235 11.2142C4.52468 11.2454 4.50672 11.2771 4.48985 11.3115C4.46918 11.3541 4.45018 11.3991 4.43159 11.4431C4.42212 11.4655 4.41275 11.4877 4.40332 11.5091C4.39499 11.5281 4.38634 11.5469 4.37769 11.5657C4.35733 11.6098 4.33696 11.654 4.32058 11.7013C4.30777 11.7384 4.29578 11.7763 4.28379 11.8142C4.27396 11.8454 4.26413 11.8765 4.25385 11.9071C4.24734 11.9268 4.24069 11.9464 4.23405 11.966C4.21773 12.0141 4.20147 12.062 4.18739 12.1114C4.17476 12.1553 4.16481 12.2 4.15484 12.2448C4.14897 12.2712 4.1431 12.2976 4.13667 12.3239C4.13317 12.3383 4.12958 12.3528 4.12598 12.3674C4.11169 12.4253 4.0971 12.4844 4.08648 12.5389C4.07743 12.5851 4.0709 12.6345 4.06423 12.685C4.0611 12.7087 4.05794 12.7326 4.05447 12.7565C4.0514 12.7782 4.04809 12.7999 4.04478 12.8217C4.03672 12.8747 4.02863 12.9278 4.02382 12.9809C4.01973 13.0279 4.01768 13.0772 4.01571 13.1244C4.01454 13.1524 4.0134 13.1797 4.01188 13.2053C4.01055 13.2278 4.00882 13.2503 4.00708 13.2727C4.00351 13.3188 3.99995 13.3648 3.99995 13.4112L2.08778 12.5492C1.63097 12.3467 1.33149 11.8505 1.33311 11.2991V8.23124H3.33317V6.73448Z"
+									fill="#99A3B4" />
+							</svg>
+
+							<span class="actions-footer__descr">My cars</span>
+						</a>
+					</li>
+					<li class="actions-footer__item">
+						<a href="#" class="actions-footer__link">
+							<svg class="actions-footer__icon" width="36" height="24" viewBox="0 0 36 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0.947241 22.0697C1.10057 22.3617 1.4028 22.5382 1.73552 22.5382L1.75748 22.538L1.75806 22.5379C3.13979 22.5048 4.72924 22.4534 6.2228 22.1736C7.71515 21.8941 9.1302 21.3833 10.1511 20.4178L10.1511 20.4177C10.182 20.3885 10.2293 20.3742 10.2803 20.3858L10.2805 20.3859C11.5089 20.6662 12.7873 20.8082 14.0801 20.8082C17.3672 20.8081 20.6481 19.8231 23.111 18.0863C25.5752 16.3487 27.2301 13.85 27.2301 10.829C27.2301 7.79955 25.569 5.30083 23.1019 3.56534C20.636 1.83074 17.3551 0.85 14.0801 0.85C10.7919 0.85 7.51104 1.83535 5.04837 3.57231C2.58446 5.31013 0.930065 7.80883 0.930065 10.829C0.930065 13.1155 1.97105 15.3433 3.84793 17.1044M0.947241 22.0697L1.08004 22L0.947249 22.0697C0.947247 22.0697 0.947244 22.0697 0.947241 22.0697ZM0.947241 22.0697C0.78988 21.7701 0.825715 21.4175 1.03865 21.1534C1.17828 20.9802 1.38308 20.778 1.61305 20.5509C1.62675 20.5374 1.64054 20.5237 1.65441 20.51C1.90408 20.2634 2.18675 19.982 2.46946 19.6597C3.03493 19.0149 3.59474 18.2122 3.87701 17.2174C3.8894 17.1737 3.87654 17.1313 3.84793 17.1044M3.84793 17.1044L3.95057 16.995L3.84791 17.1044C3.84791 17.1044 3.84792 17.1044 3.84793 17.1044ZM2.59129 21.2465C2.71877 21.0982 2.86251 20.943 3.01737 20.7773C3.03819 20.755 3.0592 20.7326 3.08037 20.7099C3.30789 20.4668 3.55479 20.2029 3.79739 19.9137C4.3285 19.2805 4.84608 18.5182 5.12075 17.55C5.25812 17.0658 5.11322 16.5498 4.74446 16.2037L4.74445 16.2037C3.08736 14.6488 2.2201 12.7903 2.2201 10.829C2.2201 8.44066 3.53431 6.26245 5.68086 4.67594C7.8273 3.0895 10.7978 2.10249 14.0801 2.10249C17.3623 2.10249 20.3328 3.08949 22.4793 4.67592C24.6258 6.26242 25.94 8.44063 25.94 10.829C25.94 13.2174 24.6258 15.3956 22.4793 16.9821C20.3328 18.5685 17.3623 19.5555 14.0801 19.5555C12.886 19.5555 11.707 19.4245 10.5757 19.1665C10.0977 19.0573 9.60179 19.1885 9.25082 19.5205C8.29346 20.4261 6.94051 20.8418 5.61799 21.0398C4.667 21.1822 3.75224 21.2101 3.02223 21.2323C2.87011 21.237 2.72602 21.2414 2.59129 21.2465Z"
+									fill="#99A3B4" stroke="#99A3B4" stroke-width="0.3" />
+								<path
+									d="M28.1592 6.48438L28.1593 6.48438C30.5692 6.78251 32.3024 7.61912 33.4334 8.81873C34.5652 10.0192 35.0801 11.5684 35.0801 13.2637C35.0801 15.6992 33.2967 17.9059 30.3734 19.1898C30.3542 19.1982 30.3437 19.2098 30.3389 19.2185C30.3343 19.2267 30.3339 19.2334 30.3354 19.2392C30.6021 20.3285 31.2676 21.3412 31.6452 21.8523L31.6452 21.8524C31.8356 22.1101 31.8381 22.4377 31.6514 22.6977L31.6513 22.6978C31.4673 22.9539 31.146 23.0826 30.8198 23.0496L30.8198 23.0496C30.1808 22.9849 29.0793 22.822 27.9655 22.4183C26.8539 22.0153 25.7118 21.3659 25.0149 20.3164L28.1592 6.48438ZM28.1592 6.48438C27.8271 6.44335 27.4865 6.64257 27.4321 6.97486M28.1592 6.48438L27.9827 7.63531M27.9827 7.63531L27.9827 7.63531C27.6478 7.59385 27.3766 7.31373 27.4321 6.97486M27.9827 7.63531C30.0971 7.89687 31.5447 8.60669 32.4638 9.59024C33.3821 10.5729 33.7884 11.8454 33.7884 13.2637C33.7884 15.2046 32.3254 17.0392 29.8054 18.146L29.8054 18.146M27.9827 7.63531L29.8054 18.146M27.4321 6.97486L27.5801 6.99911L27.4321 6.9749C27.4321 6.97489 27.4321 6.97487 27.4321 6.97486ZM29.8054 18.146C29.2541 18.3881 28.9384 18.9362 29.074 19.49L29.2197 19.4543M29.8054 18.146L29.2197 19.4543M29.2197 19.4543L29.074 19.49C29.2866 20.3583 29.7038 21.1672 30.0807 21.775C27.4388 21.3172 26.4371 20.1914 26.1238 19.7196L25.9988 19.8026M29.2197 19.4543L25.9988 19.8026M25.9988 19.8026L26.1238 19.7196C25.8758 19.3461 25.4204 19.1241 24.9398 19.1241L24.936 19.1241L24.9358 19.1241M25.9988 19.8026L24.9358 19.1241M24.9358 19.1241L24.8996 19.1242C24.8996 19.1242 24.8995 19.1242 24.8994 19.1242C24.3556 19.1242 23.8111 19.0914 23.2815 19.0267C22.9496 18.9861 22.609 19.186 22.5553 19.5184C22.5005 19.8574 22.7722 20.137 23.1073 20.1779C23.6948 20.2496 24.2978 20.2859 24.8996 20.2859L24.8999 20.2859M24.9358 19.1241L24.8999 20.2859M24.8999 20.2859L24.94 20.2859M24.8999 20.2859L24.94 20.2859M24.94 20.2859C24.94 20.2859 24.9401 20.2859 24.9401 20.2859M24.94 20.2859H24.9401M24.9401 20.2859C24.9818 20.2859 25.0073 20.305 25.0149 20.3163L24.9401 20.2859Z"
+									fill="#99A3B4" stroke="#99A3B4" stroke-width="0.3" />
+							</svg>
+
+							<span class="actions-footer__descr">Messages</span>
+						</a>
+					</li>
+					<li class="actions-footer__item">
+						<a href="#" class="actions-footer__link">
+							<div class="actions-footer__photo">
+								<img src="img/form/form-user.jpg" alt="photo">
+							</div>
+							<span class="actions-footer__descr">Profile</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
