@@ -119,7 +119,7 @@ body {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 
 /* header */
@@ -1121,9 +1121,9 @@ body {
 
 /*switch to mechanic */
 
-.header-mechanic {
+.blank-header {
 }
-.header-mechanic__container {
+.blank-header__container {
 	padding: 20px 35px 20px 35px;
 }
 .container {
@@ -1294,7 +1294,7 @@ body {
 	display: none;
 }
 @media (max-width: 992px) {
-	.header-mechanic__container {
+	.blank-header__container {
 		padding: 20px 20px 20px 20px;
 	}
 	.mechanics-community__container {
@@ -1410,10 +1410,69 @@ body {
 
 
 
-/* Обнуление */
+/* Ready */
+
+.ready {
+}
+.ready__container {
+	height: calc(100vh - 73px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 40px 50px 40px;
+}
+.container {
+}
+.ready__header {
+	
+}
+.ready__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #2C2C2C;
+	margin-top: 65px;
+}
+.ready__subtitle {
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	color: #22C086;
+	margin-top: 15px;
+}
+
+.ready__image {
+	object-fit: contain;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.ready__btn {
+	background: #FFAA00;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 46px;
+	font-weight:700;
+	font-size: 16px;
+	line-height: 31px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 13px 20px;
+	min-width: 333px;
+	align-self: center;
+}
+@media (max-width: 540px) {
+	.ready__btn {
+		min-width: 0;
+		align-self: stretch;
+	}
+}
+/* /Ready */
 
 
-/* /Обнуление */
+
+
+
 /* Обнуление */
 
 
